@@ -9,7 +9,7 @@ const Item = ({info}) => {
             <img src={info.img} alt="" />
             <p>{info.title}</p>
             <p>{info.descripcion}</p>
-            <p>{info.precio}</p>
+            <p>{info.price}</p>
         </Link>
     );
 };
