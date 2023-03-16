@@ -1,11 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { getFirestore, collection, getDocs, query, where } from "firebase/firestore";
-
-
 import ItemList from "../ItemList";
 import Title from '../Title';
-
-
 import { useParams } from "react-router-dom";
 
 
