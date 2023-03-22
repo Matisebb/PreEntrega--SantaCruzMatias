@@ -6,7 +6,7 @@ import React, {useContext} from 'react';
 const Item = ({info}) => {
     return (
         <Link to={`/detalle/${info.id}`} className='prod'>
-            <img src={info.img} alt="" />
+            <img src={info.image} alt="" />
             <p>{info.title}</p>
             <p>{info.descripcion}</p>
             <p>{info.price}</p>
