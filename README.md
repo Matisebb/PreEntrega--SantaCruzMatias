@@ -10,3 +10,7 @@ Desde el home como asi también desde la seccion de la categoria, se pueden agre
 Una vez filtrado por categoria y seleccionado el producto, se puede aumentar o disminiuir las cantidades siempre que no se supere el stock (y siempre un minimo de stock).
 Una vez agregado al carrito, automaticamente se visualiza un boton de "finalizar compra"; ingresado en el carrito se observarán los productos seleccionados con su total a pagar. (con la opcion de eliminar también)
 
+<a href="https://drive.google.com/file/d/1pm1T2Raao-RM0-aJS1UfCD27tCU6Yr_H/view" rel="nofollow">Preview</a>
+
+
+### Librerias
