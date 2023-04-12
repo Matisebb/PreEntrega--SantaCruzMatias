@@ -1,4 +1,4 @@
-# SANTA PIZZA WorkShop 🍕🍔
+# SANTA Burger&Beer WorkShop 🍔🍻
 
 Este proyecto se basa precisamente en un simulador workshop sobre pizzas y hamburguesas.
 
