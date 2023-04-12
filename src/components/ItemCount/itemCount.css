@@ -1,7 +1,73 @@
-.counter{
-    width: fit-content;
-    background-color: rgb(255, 166, 0);
-    margin: auto;
-    padding: 1rem;
+.contadorContenedor{
+    width: 100%;
+}
+
+.contador{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    border-radius: 15px;
+}    
+
+.sumar{
+    background: green;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #e07924; 
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+.resta{
+    background: red;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    border: 1px solid #e07924; 
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+.stock{
+    font-size: 20px;
+    color: #e07924;
+    text-align: center;
+    width: 100px;
+}
+
+
+
+.boton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin: 20px 0px;
+}    
+
+.agregarAlCarrito{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #e07924; 
+    color: white;
+    background-color:#e07924;
+    box-shadow: 0 5px 15px #e07924;
+    padding: 5px 0 0;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.stockDisponible{
+    font-size: 18px;
+    padding: 15px;
 }

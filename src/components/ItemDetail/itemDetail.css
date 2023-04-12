@@ -1,36 +1,91 @@
-.container{
-    width: 98%;
-    margin: auto;
-};
-
-@media screen and (min-width: 768px){
-    .container{
-        width: 76%;
-    }
+.ContainerDetail{
+    text-align: center;
+    margin: 100px auto;
+    font-family: sans-serif;
+    color: #fff;
+    min-height: 56vh;
 }
 
-.detail{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 100%;
+.ItemDetail {
+    max-width: 850px;
+    max-height: 550px;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    "combo combo combo"
+    "imgDiv descripcion descripcion"
+    "precioDetail precioDetail precioDetail"
+    "contadorDetail contadorDetail contadorDetail";
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #e07924; 
+    box-shadow: 0 5px 15px #e07924;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.combo{
+    grid-area: combo;
+    margin: 0;
+    text-align: center;
+}
+
+.descripcion{
+    grid-area: descripcion;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.precioDetail{
+    grid-area: precioDetail;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contadorDetail{
+    grid-area: contadorDetail;
+    text-align: center;
+    min-height: 150px;
+}
+
+.imgDiv{
+    grid-area: imgDiv;
+    width: 300px;
     display: flex;
-    flex-wrap: wrap;
-}
+    justify-content: center;
+    align-items: center;
+}   
 
-.detail-img{
+.imgCombo{
     width: 100%;
 }
 
-.content{
-    width: 100%;
+
+.seguirComprandoDetail,
+.irAlCarrito{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #e07924; 
+    background-color:#e07924;;
+    box-shadow: 0 5px 15px #e07924;
+    padding: 5px;
+    cursor: pointer;  
+    margin: 10px 5px;
+    width: 230px;
 }
 
-@media screen and (min-width: 768px) {
-    .detail-img{
-        width: 50%;
-    }
-    .content{
-        padding-left: 3rem;
-        width: 50%;
-    }
+.seguirComprandoDetailLink,
+.irAlCarritoLink{
+    color:#fff;
+}
+
+.bottons{
+    margin-top: 52px;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }

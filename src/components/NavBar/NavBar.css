@@ -1,12 +1,76 @@
-.container{
-  background: red;
-  font-size: 25px;
-
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+  background-color: #dd0b0b;
+  font-family: sans-serif;
 }
 
-.container .nav{
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-};
+.LogoContainer {
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Logo{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #171717;
+}
+
+.LogoContainer svg {
+  font-size: 1.2em;
+  fill: #121212;
+  margin-right: 0.5rem;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  
+}
+
+.NavLink, li,.Link{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 02px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #151515;
+  font-weight: 500;
+  transition: 0.5s all ease;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu-icon{
+  display: none;
+}
+
+.NavLink li:hover {
+  color: #fff;
+  background-color: #121212;
+  transition: 0.5s all ease;
+  border-radius: 5px;
+}
+
+.active li{
+  max-height: 100%;
+  max-width: 100%;
+  color: #fff;
+  background-color: #111111;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.cartmobile{
+  display: none;
+}
 

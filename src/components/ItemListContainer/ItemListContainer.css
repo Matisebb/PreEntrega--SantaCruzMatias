@@ -1,0 +1,26 @@
+.ItemListContainer{
+    text-align: center;
+    margin: 30px auto;
+    font-family: sans-serif;
+    max-width: 90%;
+    min-height: 72vh;
+}
+
+.ordenCompra{
+    font-size: 100px;
+    margin: auto;
+    margin-bottom: 100px;
+    color: #000;
+    text-align: center;
+}
+
+.cargando{
+    color: #fff;
+    text-align: center;
+    margin-top: 20%;
+    
+}
+
+.titulo{
+    font-size: 60px;
+}
