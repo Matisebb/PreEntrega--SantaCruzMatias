@@ -1,6 +1,6 @@
 # SANTA Burger&Beer WorkShop 🍔🍻
 
-Este proyecto se basa precisamente en un simulador workshop sobre pizzas y hamburguesas.
+Este proyecto se basa precisamente en un simulador workshop sobre hamburguesas y acompañantes/bebidas.
 
 ## Descripción
 
