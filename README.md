@@ -1,6 +1,6 @@
-# SANTA PIZZA WorkShop 🍕🍔
+# SANTA Burger&Beer WorkShop 🍔🍻
 
-Este proyecto se basa precisamente en un simulador workshop sobre pizzas y hamburguesas.
+Este proyecto se basa precisamente en un simulador workshop sobre hamburguesas y acompañantes/bebidas.
 
 ## Descripción
 
@@ -11,7 +11,9 @@ Una vez filtrado por categoria y seleccionado el producto, se puede aumentar o d
 Una vez agregado al carrito, automaticamente se visualiza un boton de "finalizar compra"; ingresado en el carrito se observarán los productos seleccionados con su total a pagar. (con la opcion de eliminar también).
 Proyecto trabajado con HTML, CSS y JAVASCRIPT
 
-<a href="https://www.youtube.com/watch?v=qyOOGulNcHk" rel="nofollow">Ejemplo</a>
+Ejemplo visualizacion proyeto:
+
+![Animation](https://user-images.githubusercontent.com/104580940/231482576-da5da402-c2b5-4273-b900-af023132053f.gif)
 
 ### Librerias
 <ul dir="auto">
