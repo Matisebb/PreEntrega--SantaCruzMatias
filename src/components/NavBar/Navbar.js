@@ -19,7 +19,7 @@ const Navbar = () => {
                     <GiHamburger />
                 </Link>
                 <Link to="/">
-                    <p className="Logo">Santa's Beer&Burger</p>
+                    <p className="Logo">Santa's Burger&Beer</p>
                 </Link>                
             </div>
             <div className="cartmobile">
@@ -49,8 +49,7 @@ const Navbar = () => {
                     <Link className="Widget" to="/cart">
                         <Widget />
                     </Link> 
-                </div>
-                 
+                </div>    
             </ul>
             
             <button className="mobile-menu-icon"
@@ -66,7 +65,7 @@ const Navbar = () => {
                 }
             </button>
         </nav>
-  );
+);
 }
 
 export default Navbar;

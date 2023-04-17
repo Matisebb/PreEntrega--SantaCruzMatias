@@ -1,13 +1,13 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    color: #000;
-    text-decoration: none;
-  }
-  
-  body{
-    overflow-x: hidden;
-    background-color: #fff;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #fff;
+}
