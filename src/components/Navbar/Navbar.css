@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 70px;
-    background-color: #000;
+    background-color: #f00c0c;
     font-family: sans-serif;
   }
   
@@ -19,12 +19,12 @@
   .Logo{
     font-size: 1.2rem;
     font-weight: 500;
-    color: #e07924;
+    color: #000000;
   }
   
   .LogoContainer svg {
     font-size: 1.2em;
-    fill: #e07924;
+    fill: #050505;
     margin-right: 0.5rem;
   }
   
@@ -41,7 +41,7 @@
     padding: 5px 02px;
     margin: 0 10px;
     cursor: pointer;
-    color: #e07924;
+    color: #111111;
     font-weight: 500;
     transition: 0.5s all ease;
     font-size: 1.2rem;
@@ -56,7 +56,7 @@
   
   .NavLink li:hover {
     color: #fff;
-    background-color: #e07924;
+    background-color: #0a0a0a;
     transition: 0.5s all ease;
     border-radius: 5px;
   }
@@ -65,7 +65,7 @@
     max-height: 100%;
     max-width: 100%;
     color: #fff;
-    background-color: #e07924;
+    background-color: #0d0d0d;
     font-size: 1.2rem;
     border-radius: 5px;
   }

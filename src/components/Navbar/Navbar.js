@@ -19,7 +19,7 @@ const Navbar = () => {
                     <GiHamburger />
                 </Link>
                 <Link to="/">
-                    <p className="Logo">Rodolfo's Beer&Burger</p>
+                    <p className="Logo">Santa's Burger&Beer</p>
                 </Link>                
             </div>
             <div className="cartmobile">
