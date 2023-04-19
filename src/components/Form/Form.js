@@ -85,7 +85,7 @@ function Form(){
                     <p className="compra">Te enviamos un mail a <span className="mail">{(buyer.Email)}</span></p>
                     <p className="compra">Tu nro. de orden es:</p>
                     <p className="TiketId">{orderId}</p>
-                    <h2 className="tiketTituloBar">Santa's Burger&Beer</h2>
+                    <h2 className="tiketTituloBar">Santa's Beer&Burger</h2>
                     <Link to={'/'}><p className="carta">Realizar otra compra</p></Link>
                 </div>
             </div>                        

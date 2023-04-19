@@ -19,7 +19,7 @@ return (
                     <GiHamburger />
                 </Link>
                 <Link to="/">
-                    <p className="Logo">Santa's Pizza&Burger</p>
+                    <p className="Logo">Santa's Beer&Burger</p>
                 </Link>                
             </div>
             <div className="cartmobile">
