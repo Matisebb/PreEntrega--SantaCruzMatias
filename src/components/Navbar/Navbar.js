@@ -12,14 +12,14 @@ const Navbar = () => {
 
     const [isMobile, setIsMobile] = useState(false)
 
-  return (
+return (
         <nav className="navbar">
             <div className="LogoContainer">
                 <Link to="/">
                     <GiHamburger />
                 </Link>
                 <Link to="/">
-                    <p className="Logo">Santa's Burger&Beer</p>
+                    <p className="Logo">Santa's Pizza&Burger</p>
                 </Link>                
             </div>
             <div className="cartmobile">
@@ -50,7 +50,6 @@ const Navbar = () => {
                         <Widget />
                     </Link> 
                 </div>
-                 
             </ul>
             
             <button className="mobile-menu-icon"
